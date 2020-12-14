@@ -1,17 +1,27 @@
 #container {
-    max-width: 576px;
+    display: grid;
+    max-width: 80%;
+    height: 80%;
+    max-height: 80%;
     margin: auto;
 }
 
 .grid {
     background-color: aqua;
-    width: 30px;
-    height: 30px;
-    margin: 2px;
-    border: solid black 1px;
-    display: inline-block;
+    color: blue;
+    padding: 1rem;
+    margin: 0rem;
+    border: .01rem black solid;
 }
 
 .mouse {
     background-color: yellow;
+}
+
+button {
+    display: block;
+    margin: auto;
+    padding: 10px 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
